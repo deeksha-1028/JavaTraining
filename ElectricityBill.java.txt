@@ -1,0 +1,16 @@
+import java.util.*;
+public class ElectricityBIll {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int unit = sc.nextInt();
+		int cost = sc.nextInt();
+		
+		if(unit<100)
+			System.out.println(unit*cost);
+		else
+			System.out.println((unit-100)*cost);
+
+	}
+
+}
